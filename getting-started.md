@@ -22,7 +22,7 @@ Docs = background, extensions, and best practices.
 Each store or group of products should have a log file in /logs.
 For example, a section from a product:
 
-wakingcup/logs/product-schema.json
+logs/wakingcup/product-schema.json
 
    {
         "@type": "Product",
