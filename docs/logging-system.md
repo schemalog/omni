@@ -8,9 +8,7 @@ Omni is designed to **collect and file schema logs from many contributors** into
 2. Create a folder inside `/logs` named after your brand or project:
 /logs/[yourbrand]
 Example:
-/logs/brightbeans/
-brightbeans-darkroast.json
-brightbeans-lightroast.json
+/logs/brightbeans/product-schema.json
 
 3. Each file should:
 - Be valid JSON
