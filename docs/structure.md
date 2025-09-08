@@ -30,7 +30,7 @@ Instead of `"source": "Shopee"`, use arrays: `"source": ["Shopee", "Lazada", "Am
 
 ### 5. Schema Versions
 Each log declares a version number:
-```json
+'''json
 {
   "version": "1.0.0",
   "@context": "https://schema.org",
