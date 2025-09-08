@@ -2,29 +2,24 @@ Omni is an open schema log structure for e-commerce products and reviews. It pro
 
 Omni was first prototyped on Waking Cup Coffee, but the structure is designed for any product in any store worldwide.
 
-Why Omni?
 
-Product data is fragmented across platforms. Reviews live in silos. Omni provides:
+## Why Omni?
 
-Unified product schema: define your product once, reference it across platforms.
+- Product data is fragmented across platforms. Reviews live in silos. Omni provides:
+- Unified product schema: define your product once, reference it across platforms.
+- Cross-platform reviews: aggregate ratings from different marketplaces.
+- SEO & AI benefits: embed JSON-LD schema to show rich snippets (stars, ratings) and make your data crawlable. Leaving your schema log here is like sending a probe for crawlers to discover.
+- Scalability: works for small stores or giant catalogs.
 
-Cross-platform reviews: aggregate ratings from different marketplaces.
 
-SEO & AI benefits: embed JSON-LD schema to show rich snippets (stars, ratings) and make your data crawlable. Leaving your schema log here is like sending a probe for crawlers to discover.
-
-Scalability: works for small stores or giant catalogs.
-
-Features
+## Features
 
 📦 Product entries with SKU identifiers.
-
 ⭐ Aggregated review logs (Shopee, Lazada, Amazon, etc.).
-
 🌐 JSON-LD ready for embedding in websites.
-
 🔗 Extensible structure—connect products, reviews, categories, or even wholesale catalogs.
 
-Example
+### Example
 Product Entry
         "@type": "Product",
         "name": "กรองดริปกาแฟ คุณภาพดี แบบพับได้ กรวยดริปเปอร์ สแตนเลส ดิปกาแฟ ที่กรองกาแฟแบบสแตนเลส Dripper Stainless Steel สินค้าพร้อมส่ง",
@@ -57,7 +52,7 @@ Product Entry
             "lazada": "https://www.lazada.co.th/products/pdp-i4212266679.html"
         },
 
-Review Aggregation
+### Review Aggregation
         "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": 4.97,
@@ -66,28 +61,27 @@ Review Aggregation
         },
 }
 
-Usage
 
-Drop Omni JSON-LD schema sections into your product pages to enrich SEO.
+## Usage
 
-Maintain schema logs that track all your products + reviews in one place.
+- Drop Omni JSON-LD schema sections into your product pages to enrich SEO.
+- Maintain schema logs that track all your products + reviews in one place.
+- Scale across platforms: centralize your catalog while letting each store keep its own sales.
 
-Scale across platforms: centralize your catalog while letting each store keep its own sales.
 
-Roadmap
+## Roadmap
 
- Publish reference implementation (Waking Cup).
+ - Publish reference implementation (Waking Cup).
+ - Example scripts for aggregating review data.
+ - Guidelines for wholesale + marketplace extensions.
+ - Thai-language mirror (for Lazada/Shopee sellers in Thailand).
 
- Example scripts for aggregating review data.
 
- Guidelines for wholesale + marketplace extensions.
+## Contributing
 
- Thai-language mirror (for Lazada/Shopee sellers in Thailand).
+- Want to add your store’s schema logs? Fork this repo, add your data, and submit a PR. Omni is designed to grow into a global schema commons for e-commerce.
 
-Contributing
 
-Want to add your store’s schema logs? Fork this repo, add your data, and submit a PR. Omni is designed to grow into a global schema commons for e-commerce.
-
-License
+## License
 
 MIT License. Free for anyone to use, extend, or embed.
