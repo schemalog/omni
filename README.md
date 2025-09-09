@@ -1,3 +1,5 @@
+# Omni Product Schema Log
+
 Omni is an open schema log structure for e-commerce products and reviews. It provides a unified way to represent product data and customer reviews across multiple online stores (Shopee, Lazada, Amazon, Etsy, GumRoad, etc.) in a machine-readable format.
 
 Omni was first prototyped on Waking Cup Coffee, but the structure is designed for any product in any store worldwide.
