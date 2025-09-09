@@ -23,7 +23,7 @@ Each store or group of products should have a log file in /logs.
 For example, a section from a product:
 
 logs/wakingcup/product-schema.json
-
+```
    {
         "@type": "Product",
         "name": "กรองดริปกาแฟ คุณภาพดี แบบพับได้ กรวยดริปเปอร์ สแตนเลส ดิปกาแฟ ที่กรองกาแฟแบบสแตนเลส Dripper Stainless Steel สินค้าพร้อมส่ง",
@@ -75,14 +75,14 @@ logs/wakingcup/product-schema.json
                     "https://img.lazcdn.com/g/ugc/b44854727ab049f9a4b49d950312a5ac_7e8ee74aa4a84794a5ed626d7fe10de9.jpg_x180q80.jpg_.webp"
                 ]
             },...
-
+```
 
 3. Embedding Schema in Your Site
 
 To make Google and other crawlers recognize your schema, embed it into your product pages as JSON-LD inside a <script> tag.
 
 Example:
-
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,7 +111,7 @@ Example:
   <p>Our best coffee blend yet.</p>
 </body>
 </html>
-
+```
 
 4. Next Steps
 
