@@ -22,6 +22,7 @@ Omni was first prototyped on Waking Cup Coffee, but the structure is designed fo
 🔗 Extensible structure—connect products, reviews, categories, or even wholesale catalogs.
 
 ### Example
+```
 Product Entry
         "@type": "Product",
         "name": "กรองดริปกาแฟ คุณภาพดี แบบพับได้ กรวยดริปเปอร์ สแตนเลส ดิปกาแฟ ที่กรองกาแฟแบบสแตนเลส Dripper Stainless Steel สินค้าพร้อมส่ง",
@@ -62,7 +63,7 @@ Product Entry
             "source": ["Shopee", "Lazada"]
         },
 }
-
+```
 
 ## Usage
 
